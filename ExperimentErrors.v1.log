@@ -1,0 +1,89 @@
+Current Time: 09-05-2017 05:25:46: An ERROR has occurred - Experiment Incomplete!
+Current Time: 09-05-2017 05:26:35: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\random_process.py", line 11, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\random_process.py", line 21, in _execute
+    log_experiment_info(log_filename, experiment_name, num_iterations, max_num_of_epochs, validation_set, numbers_to_test)
+NameError: name 'log_filename' is not defined
+
+Current Time: 09-05-2017 08:49:28: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 16, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test, acquisition_function)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 59, in _execute
+    output_to_log("%s: Before randomize %r" % (acquisition_function, next_params))
+TypeError: output_to_log() missing 1 required positional argument: 'text'
+
+Current Time: 09-05-2017 08:49:37: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 16, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test, acquisition_function)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 63, in _execute
+    output_to_log("%s: Before randomize %r" % (acquisition_function))
+TypeError: not enough arguments for format string
+
+Current Time: 09-05-2017 08:50:07: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 16, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test, acquisition_function)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 59, in _execute
+    output_to_log("%s: Before randomize %r" % (acquisition_function, next_params))
+TypeError: output_to_log() missing 1 required positional argument: 'text'
+
+Current Time: 09-05-2017 08:50:17: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 16, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test, acquisition_function)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 63, in _execute
+    output_to_log("%s: Before randomize %r" % (acquisition_function, next_params))
+TypeError: output_to_log() missing 1 required positional argument: 'text'
+
+Current Time: 09-05-2017 08:51:43: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 16, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test, acquisition_function)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 59, in _execute
+    output_to_log("%s: Before randomize %r" % (acquisition_function, next_params))
+TypeError: output_to_log() missing 1 required positional argument: 'text'
+
+Current Time: 09-05-2017 08:51:52: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 16, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test, acquisition_function)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 63, in _execute
+    output_to_log("%s: Before randomize %r" % (acquisition_function, next_params))
+TypeError: output_to_log() missing 1 required positional argument: 'text'
+
+Current Time: 09-05-2017 17:10:46: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\random_process.py", line 11, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\random_process.py", line 57, in _execute
+    plot_figures(results_dir, accuracy_so_far, losses_so_far)
+TypeError: plot_figures() missing 1 required positional argument: 'log_losses'
+
+Current Time: 09-05-2017 17:11:12: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 16, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test, acquisition_function)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 100, in _execute
+    plot_figures(results_dir, accuracy_so_far, losses_so_far)
+TypeError: plot_figures() missing 1 required positional argument: 'log_losses'
+
+Current Time: 09-05-2017 17:11:35: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 16, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test, acquisition_function)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 100, in _execute
+    plot_figures(results_dir, accuracy_so_far, losses_so_far)
+TypeError: plot_figures() missing 1 required positional argument: 'log_losses'
+
+Current Time: 09-05-2017 17:12:00: An ERROR has occurred - Experiment Incomplete!
+Traceback (most recent call last):
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 16, in execute
+    _execute(num_iterations, max_num_of_epochs, validation_set, numbers_to_test, acquisition_function)
+  File "C:\Users\geeki\Google Drive\DMU\IMAT5234-2017-2 Applied Computational Intelligence\Assessment\Assign 2\code\gaussian_process.py", line 100, in _execute
+    plot_figures(results_dir, accuracy_so_far, losses_so_far)
+TypeError: plot_figures() missing 1 required positional argument: 'log_losses'
+
